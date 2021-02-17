@@ -1,4 +1,6 @@
-const burger = document.querySelector('.burger-menu');
+
+$( document ).ready(function() {
+  const burger = document.querySelector('.burger-menu');
 const menu = document.querySelector('.menu');
 const body =document.body;
 
@@ -71,3 +73,4 @@ AOS.init();
 //         });
 //         return false;
 // })
+});
