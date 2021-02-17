@@ -1,0 +1,120 @@
+.footer {
+  background: url("../img/f-bg.png") center center no-repeat;
+  background-size: cover;
+}
+.f-log {
+  color: #fff !important;
+}
+.f-icon-text {
+  color: #ffffff;
+}
+.f-logo {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.footer-text {
+  max-width: 360px;
+  color: #949494;
+  font-family: Crimson-Roman;
+  font-size: 14px;
+  line-height: 20.31px;
+  text-align: left;
+  letter-spacing: 1.4px;
+  margin-bottom: 40px;
+}
+.f-head {
+  color: #e3e3e3;
+  font-family: Montserrat;
+  font-size: 13px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.f-text {
+  color: #949494;
+  font-family: Crimson-Roman;
+  font-size: 14px;
+  line-height: 20.31px;
+  text-align: left;
+  margin-top: 28px;
+  margin-bottom: 36px;
+}
+.f-info {
+  color: #e3e3e3;
+  font-family: Montserrat;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: left;
+}
+.f-icons {
+  margin-top: 38px;
+  margin-bottom: 155px;
+}
+.f-form {
+  margin-left: 40px;
+  margin-top: 90px;
+}
+.f-form input[type="text"] {
+  width: 47.8%;
+  background-color: inherit;
+  padding: 22px;
+  color: #949494;
+  font-family: Crimson-Roman;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 20.31px;
+  text-align: left;
+  border: 2px solid #464646;
+  margin-bottom: 20px;
+}
+.f-form input[type="text"]:nth-child(odd) {
+  margin-right: 30px;
+}
+#message {
+  width: 100%;
+  background-color: inherit;
+  padding: 22px;
+  color: #949494;
+  font-family: Crimson-Roman;
+  font-size: 14px;
+  font-style: italic;
+  text-align: left;
+  border: 2px solid #464646;
+}
+.f-container {
+  align-items: unset;
+}
+.f-form input[type="submit"] {
+  background-color: #464646;
+  padding: 16px 40px;
+  border: none;
+  margin-top: 20px;
+  color: #e3e3e3;
+  font-family: Montserrat;
+  font-size: 13px;
+}
+
+@media (max-width: 1070px) {
+  .f-form input[type="text"] {
+    width: 95%;
+  }
+  #message {
+    width: 95%;
+  }
+  .f-form input[type="text"]:nth-child(odd) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .f-container {
+    flex-direction: column-reverse;
+    position: relative;
+  }
+  .f-form {
+    margin: 20px;
+  }
+  .f-form input[type="text"],
+  #message {
+    padding: 10px;
+  }
+}
